@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.testimonial-container {
+    background: white;
+    min-height: 100vh;
+    padding: 80px 40px;
+}
+
+.testimonial-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.testimonial-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.featured-card {
+    background: white;
+    border-radius: 8px;
+    padding: 48px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.featured-content {
+    flex: 1;
+}
+
+.company-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.testimonial-quote {
+    font-size: 32px;
+    line-height: 1.4;
+    color: black;
+    margin-bottom: 24px;
+}
+
+.testimonial-link {
+    color: #0066ff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.testimonial-link:hover {
+    text-decoration: underline;
+}
+
+.video-thumbnail {
+    width: 320px;
+    height: 180px;
+    background: white;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.play-button {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    width: 48px;
+    height: 48px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.testimonial-card {
+    background: white;
+    border-radius: 8px;
+    padding: 32px;
+}
+
+.card-company {
+    font-size: 14px;
+    font-weight: 600;
+    color: red;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.card-text {
+    font-size: 15px;
+    line-height: 1.6;
+    color: black;
+}
+
+.stats-bar {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+    border-top: 1px solid #e3e2df;
+    color: #9b9a97;
+    font-size: 13px;
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.stat-icon {
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+}
